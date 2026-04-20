@@ -76,6 +76,7 @@ This project demonstrates:
 
 You can view the live version of the project here:
 
+https://linetmaina.github.io/wordly-project/
 
 ## Author
 
@@ -83,6 +84,6 @@ Built as part of a JavaScript learning module.
 
 ---
 
-## 📌 License
+## License
 
 This project is for educational purposes only.
