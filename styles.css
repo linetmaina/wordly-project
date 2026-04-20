@@ -1,0 +1,71 @@
+/* PAGE BACKGROUND */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a237e;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* vertical center */
+  align-items: center;       /* horizontal center */
+  height: 100vh;             /* full screen height */
+  margin: 0;
+}
+
+/* HEADING */
+h1 {
+  margin-bottom: 20px;
+}
+
+/* FORM CONTAINER */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* space between input & button */
+}
+
+/* INPUT BOX */
+input {
+  padding: 12px;
+  width: 250px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background-color: #e3f2fd;
+  color: #000;
+  font-size: 16px;
+}
+
+/* SEARCH BUTTON */
+button {
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: #3949ab; /* medium blue */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* BUTTON HOVER */
+button:hover {
+  background-color: #5c6bc0; /* lighter blue on hover */
+}
+
+/* RESULTS SECTION */
+#result {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* ERROR MESSAGE */
+#error-message {
+  color: #ff6b6b;
+  margin-top: 10px;
+}
+
+/* HIDDEN CLASS */
+.hidden {
+  display: none;
+}
